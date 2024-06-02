@@ -9,6 +9,8 @@
     
     <title>
         
+            C Primer Plus note |
+        
         Keep Theme
     </title>
     
@@ -55,7 +57,7 @@
     
 
     <!-- page content -->
-    <div class="page-main-content border-box is-home">
+    <div class="page-main-content border-box">
         <div class="page-main-content-top">
             
 <header class="header-wrapper">
@@ -78,7 +80,7 @@
                     
                         
                         <li class="menu-item">
-                            <a class="active"
+                            <a class=""
                                href="/"
                             >
                                 
@@ -113,7 +115,7 @@
             
                 
                 <li class="drawer-menu-item flex-center">
-                    <a class="active"
+                    <a class=""
                        href="/"
                     >HOME</a>
                 </li>
@@ -140,46 +142,50 @@
             <div class="main-content border-box">
                 
 
-                    <div class="home-content-container fade-in-down-animation">
-    
-    <ul class="home-post-list border-box">
-        
-            <li class="home-post-item">
+                    
+<div class="fade-in-down-animation">
+    <div class="post-page-container border-box">
+        <div class="post-content-container border-box">
+            
 
+            <div class="post-content-bottom border-box">
+                
+                    <div class="post-title">
+                        C Primer Plus note
+                    </div>
                 
 
-                <div class="home-post-item-bottom border-box">
-                    
-                    <h3 class="home-post-title border-box">
-                        <a href="/2024/06/02/C-Primer-Plus-note/">
-                            C Primer Plus note
-                        </a>
-                    </h3>
-
-                    <div class="home-post-content keep-markdown-body">
+                
+                    <div class="post-header border-box">
                         
-                            m_C_Primer_Plus笔记Part Ⅰ概览、C语言概述
-编译器匹配一种特定的机器语言。就可以将同一高级语言程序转换为各种不同的机器语言程序。
-
-
-应该养成在编写代码前先进行规划的习惯。eg. 大略记下程序的目标，并勾勒出设计概貌。
-
-复习题1...
+                            <div class="avatar-box border-box">
+                                <img src="/images/avatar.svg">
+                            </div>
                         
-                    </div>
+                        <div class="info-box">
+                            <div class="author border-box">
+                                <span class="name">Keep Team</span>
+                                
+                                    <span class="author-badge">Lv1</span>
+                                
+                            </div>
+                            <div class="meta-info border-box">
+                                
 
-                    
-
-<div class="post-meta-info-container border-box home">
+<div class="post-meta-info-container border-box post">
     <div class="post-meta-info border-box">
         
-            <span class="meta-info-item border-box">
-                <i class="icon fa-solid fa-history"></i>&nbsp;<span class="home-post-history"
-                                                                                data-updated="Sun Jun 02 2024 18:58:33 GMT+0800"
-                >2024-06-02 18:58:33</span>
-            </span>
-        
 
+        
+            <span class="meta-info-item post-create-date">
+                <i class="icon fa-solid fa-calendar-plus"></i>&nbsp;
+                <span class="datetime">2024-06-02 18:58:00</span>
+            </span>
+
+            <span class="meta-info-item post-update-date">
+                <i class="icon fa-solid fa-file-pen"></i>&nbsp;
+                <span class="datetime" data-updated="Sun Jun 02 2024 18:58:33 GMT+0800">2024-06-02 18:58:33</span>
+            </span>
         
 
         
@@ -193,68 +199,166 @@
     </div>
 
     
-        <a class="home-read-more" href="/2024/06/02/C-Primer-Plus-note/">Read more&nbsp;<i class="icon fas fa-angle-right"></i></a>
-    
 </div>
 
+                            </div>
+                        </div>
+                    </div>
+                
+
+                <div class="post-content keep-markdown-body ">
+                    
+
+                    <h1 id="m-C-Primer-Plus笔记"><a href="#m-C-Primer-Plus笔记" class="headerlink" title="m_C_Primer_Plus笔记"></a>m_C_Primer_Plus笔记</h1><h2 id="Part-Ⅰ"><a href="#Part-Ⅰ" class="headerlink" title="Part Ⅰ"></a>Part Ⅰ</h2><h3 id="概览、C语言概述"><a href="#概览、C语言概述" class="headerlink" title="概览、C语言概述"></a>概览、C语言概述</h3><blockquote>
+<p>编译器匹配一种特定的机器语言。就可以将同一高级语言程序转换为各种不同的机器语言程序。</p>
+</blockquote>
+<blockquote>
+<p>应该养成在编写代码前先进行规划的习惯。<code>eg.</code> 大略记下程序的目标，并勾勒出设计概貌。</p>
+</blockquote>
+<p>复习题1：</p>
+<ol>
+<li>就编程而言，可移植性表示什么？</li>
+<li>解释源代码文件、目标代码文件和可执行文件之间的区别。</li>
+<li>编程的7个主要步骤是什么？</li>
+<li>编译器的任务是什么？</li>
+<li>链接器的任务是什么？</li>
+</ol>
+<p>答案：</p>
+<ol>
+<li><p>一个程序的可移植性好，就是指它的源代码不经修改就可以在多种不同的计算机系统上编译成可以成功运行的程序。</p>
+</li>
+<li><p>源代码文件中包含着程序员使用任何语言编写的代码。目标代码文件包含着机器语言代码，它并不需要是完整的程序代码。可执行文件包含着组成可执行程序的全部机器语言代码。</p>
+</li>
+<li><ul>
+<li><p>定义程序目标</p>
+</li>
+<li><p>设计程序</p>
+</li>
+<li><p>编写程序代码</p>
+</li>
+<li><p>编译程序</p>
+</li>
+<li><p>运行程序</p>
+</li>
+<li><p>测试和调试程序</p>
+</li>
+<li><p>维护和修改程序</p>
+</li>
+</ul>
+</li>
+<li><p>编译器把源代码（例如，用C语言写成的代码）转换成机器语言代码，也称对象代码。</p>
+</li>
+<li><p>链接器把多个来源（例如，已编译的源代码、库代码和启动代码）的目标代码连接成一个单独的可执行程序。</p>
+</li>
+</ol>
+<hr>
+<blockquote>
+<p>C语言中的6种语句：标号语句、复合语句、表达式语句、</p>
+<p>​                                    选择语句、迭代语句、跳转语句。</p>
+</blockquote>
+<blockquote>
+<p>分号是语句的一部分。</p>
+</blockquote>
+<blockquote>
+<p><code>int num;</code> 这样该声明把一个特殊的标识符和计算机内存中的一个特殊的位置联系起来，同时确定了该位置存储的信息类型（也即数据类型）。</p>
+</blockquote>
+<blockquote>
+<p><code>num = 1;</code> 赋值语句赋值的顺序是从右到左。</p>
+</blockquote>
+<blockquote>
+<p>函数原型（prototype）、函数调用（function call）、函数定义（function definition）。</p>
+</blockquote>
+<blockquote>
+<p>语法错误、语义错误、程序状态。</p>
+</blockquote>
+<blockquote>
+<p>理解什么是C程序。可以把程序看作是你希望计算机如何完成任务的描述。</p>
+</blockquote>
+<p>复习题2：</p>
+<ol>
+<li>C语言的基本模块是什么？</li>
+<li>什么是语法错误？</li>
+<li>什么是语义错误？</li>
+</ol>
+<p>答案：</p>
+<ol>
+<li>它们都叫做函数。</li>
+<li>语法错误违反了组成语句或程序的规则。</li>
+<li>语义错误是指含义错误。</li>
+</ol>
+<hr>
+<h3 id="数据和C"><a href="#数据和C" class="headerlink" title="数据和C"></a>数据和C</h3><blockquote>
+<p>如果在long类型和int类型占用空间相同的机器上编写代码，当确实需要32位的整数时，应使用long类型而不是int类型，以便把程序移植到16位机后仍然可以正常工作。</p>
+</blockquote>
+<blockquote>
+<p>溢出行为是未定义的行为，C标准并未定义有符号类型的溢出规则。</p>
+</blockquote>
+<blockquote>
+<p>int 类型被认为是计算机处理整数类型时最高效的类型。</p>
+</blockquote>
+<p>复习题3：</p>
+<ol>
+<li>在什么情况下要用long类型的变量代替int类型的变量？</li>
+<li>使用哪些可移植的数据类型可以获得32位有符号整数？选择的理由是什么？</li>
+</ol>
+<p>答案：</p>
+<ol>
+<li>原因之一：在系统中要表示的数超过了int可表示的范围，这时要使用long类型。原因之二：如果要处理更大的值，那么使用一种在所有系统上都保证至少是32位的类型，可提高程序的可移植性。</li>
+<li>如果要正好获得32位的整数，可以使用<code>int32_t</code>类型。要获得可储存至少32位整数的最小类型，可以使用<code>int_least32_t</code>类型。如果要为32位整数提供最快的计算速度，可以选择<code>int_fast32_t</code>类型（假设你的系统已定义了上述类型）。</li>
+</ol>
+<hr>
+
                 </div>
-            </li>
-        
-            <li class="home-post-item">
+                
+
+                <div class="post-bottom-tags-and-share border-box">
+                    <div>
+                        
+                    </div>
+                    <div>
+                        
+                    </div>
+                </div>
 
                 
 
-                <div class="home-post-item-bottom border-box">
-                    
-                    <h3 class="home-post-title border-box">
-                        <a href="/2024/06/02/hello-world/">
-                            Hello World
-                        </a>
-                    </h3>
-
-                    <div class="home-post-content keep-markdown-body">
+                
+                    <div class="post-nav border-box">
                         
-                            Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, yo...
+                        
+                            <div class="next-post">
+                                <a class="next"
+                                   rel="next"
+                                   href="/2024/06/02/hello-world/"
+                                   title="Hello World"
+                                >
+                                    <span class="title flex-center">
+                                        <span class="post-nav-title-item text-ellipsis">Hello World</span>
+                                        <span class="post-nav-item">Next posts</span>
+                                    </span>
+                                    <span class="right arrow-icon flex-center">
+                                        <i class="fas fa-chevron-right"></i>
+                                    </span>
+                                </a>
+                            </div>
                         
                     </div>
+                
 
+                
                     
 
-<div class="post-meta-info-container border-box home">
-    <div class="post-meta-info border-box">
-        
-            <span class="meta-info-item border-box">
-                <i class="icon fa-solid fa-history"></i>&nbsp;<span class="home-post-history"
-                                                                                data-updated="Sun Jun 02 2024 11:56:28 GMT+0800"
-                >2024-06-02 11:56:28</span>
-            </span>
-        
 
-        
 
-        
 
-        
 
-        
-        
-        
+
+                
+            </div>
+        </div>
+
         
     </div>
-
-    
-        <a class="home-read-more" href="/2024/06/02/hello-world/">Read more&nbsp;<i class="icon fas fa-angle-right"></i></a>
-    
-</div>
-
-                </div>
-            </li>
-        
-    </ul>
-    
-
-
-
 </div>
 
 
@@ -288,10 +392,28 @@
 
     <!-- post tools -->
     
+        <div class="post-tools right-toc">
+            <div class="post-tools-container border-box">
+    <ul class="tools-list border-box">
+        <!-- PC TOC show toggle -->
+        
+
+        <!-- PC go comment -->
+        
+
+        <!-- PC full screen -->
+        <li class="tools-item flex-center full-screen">
+            <i class="fa-solid fa-expand"></i>
+        </li>
+    </ul>
+</div>
+
+        </div>
+    
 
     <!-- side tools -->
     <div class="side-tools">
-        <div class="side-tools-container border-box side-tools-show-handle">
+        <div class="side-tools-container border-box ">
     <ul class="side-tools-list side-tools-show-handle border-box">
         <li class="tools-item tool-font-adjust-plus flex-center">
             <i class="fas fa-search-plus"></i>
@@ -346,7 +468,6 @@
 
 
 
-
 <!-- common -->
 
 <script src="/js/utils.js"></script>
@@ -371,6 +492,20 @@
 
 
 <div class="">
+    
+        <!-- post-helper -->
+        
+<script src="/js/post/post-helper.js"></script>
+
+
+        <!-- toc -->
+        
+
+        <!-- copyright-info -->
+        
+
+        <!-- share -->
+        
     
 
     <!-- categories page -->
